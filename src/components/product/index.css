@@ -1,0 +1,318 @@
+.flex {
+  display: flex;
+}
+
+/* === PRODUCT IMAGE SECTION === */
+
+.clarifion-content {
+  width: 1245px;
+  margin: 0 auto;
+  border-radius: 10px;
+  background-color: #FAFAFA;
+  padding: 40px
+}
+
+.clarifion-content .clarifion-usage {
+  width: 575px;
+  height: 591px;
+  margin-right: 40px;
+}
+
+.clarifion-content span{
+  font-size: 32px;
+}
+
+.blue-text {
+  color: #2C7EF8;
+}
+
+/* === PRODUCT INFO === */
+
+.clarifion-info {
+  display: flex;
+}
+
+.product-title {
+  position: relative;
+  bottom: 10px;
+}
+
+.clarifion-promo span:nth-child(1) {
+  color: #2C7EF8
+}
+
+.clarifion-promo span:nth-child(5) {
+  color: #2C7EF8
+}
+
+.clarifion-promo p .total-price {
+  color: #000;
+}
+
+.blue-square {
+  width: 134px;
+  height: 134px;
+  background-color: #2C7EF8;
+  border-radius: 10px;
+  margin-top: 32.5px;
+}
+
+.clarifion-square-bg {
+  width: 134px;
+  height: 134px;
+}
+
+.title-price {
+  display: flex;
+  position: relative;
+  top: 26px;
+}
+
+.title-price span {
+  font-size: 20px;
+  color: #000;
+  margin-left: 24px;
+  margin-right: 131px;
+  right: 10px;
+}
+
+.prices span:nth-child(1) {
+  font-size: 16px;
+  color: #969696;
+  font-weight: 500;
+  position: relative;
+  top: 32px;
+  right: 70px;
+}
+
+.prices span:nth-child(2) {
+  font-size: 22px;
+  color: #2C7EF8;
+  font-weight: 500;
+  position: relative;
+  top: 32px;
+  right: 60px;
+}
+
+.rating { 
+  margin-left: 24px;
+  margin-top: 32px;
+}
+
+.rating img {
+  width: 14.89px;
+  height: 14.22px;
+  margin-right: 3.55px;
+}
+
+.rating img:nth-child(5) {
+  margin-right: 0px;
+}
+
+.stock {
+  display: flex;
+}
+
+.stock img {
+  width: 16px;
+  height: 16px;
+  margin-left: 24px;
+  margin-top: 14px;
+}
+
+.stock span {
+  font-size: 16px;
+  color: #37465A;
+  margin-top: 11px;
+  margin-left: 16px;
+}
+
+.clarifion-purifier {
+  margin-left: 24px;
+  margin-top: 12px;
+}
+
+.clarifion-purifier span {
+  font-size: 16px;
+  color: #4D5254;
+}
+
+.clarifion-purifier span:nth-child(1) {
+  white-space: nowrap;
+}
+
+/* === CLARIFION CHECKS === */
+
+.clarifion-checks {
+  margin-top: 18px;
+}
+
+.check :nth-child(1), .check :nth-child(2) {
+  width: 20px;
+  height: 14px;
+  margin-top: 20px;
+}
+
+.check {
+  display: flex;
+}
+
+.check span {
+  font-size: 16px;
+  color: #4D5254;
+  white-space: nowrap;
+  margin-left: 12px;
+  position: relative;
+  bottom: 4px
+}
+
+.save-percentage {
+  width: 542px;
+  height: 56px;
+  background-color: #EDF3FD;
+  border-radius: 10px;
+  margin-top: 32px;
+  padding: 12px 85px 12px 16px;
+  display: flex;
+  margin-bottom: 32px;
+}
+
+.blue-circle-percentage {
+  width: 32px;
+  height: 32px;
+  background-color: #2C7EF8;
+  border-radius: 50%;
+  text-align: center;
+  margin-right: 16px;
+}
+
+.blue-circle-percentage img {
+  position: relative;
+  top: 6px;
+}
+
+.save-text {
+  position: relative;
+  top: 5px;
+}
+
+.save-text span {
+  color: #000;
+  font-size: 16px;
+}
+
+.save-text span span {
+  color: #2C7EF8;
+}
+
+.claim-disc {
+  width: 542px;
+  height: 59px;
+  background-color: #59AE43;
+  display: flex;
+  justify-content: center;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-bottom: 12px;
+}
+
+.claim-disc span {
+  color: white;
+  font-size: 20px;
+  margin-right: 19.76px;
+  position: relative;
+  top: 15px;
+  font-weight: 500;
+}
+
+.claim-disc img {
+  height: 16px;
+  width: 16px;
+}
+
+.shipping {
+  width: 542px;
+  height: 33px;
+  border: 1px solid #CFCFCF;
+  display: flex;
+  border-radius: 4px;
+  padding-top: 6.5px;
+  margin-bottom: 20px;
+}
+
+.shipping span {
+  color: #4D5254;
+  font-size: 12px;
+  margin-left: 14px;
+  margin-right: 16px;
+  white-space: nowrap;
+}
+
+.shipping .line {
+  height: 16px;
+  margin-right: 16px;
+}
+
+.shipping .lock {
+  width: 12px;
+  height: 12px;
+  margin-top: 3px;
+}
+
+.payment-method {
+  width: 180;
+  height: 14px;
+  margin-top: 1.5px;
+}
+
+.payment-method:nth-child(7) {
+  margin-right: 14px;
+}
+
+.refuse-disc {
+  text-align: center;
+  position: relative;
+  right: 30px;
+}
+
+.refuse-disc span {
+  font-size: 18px;
+  font-weight: 500;
+  color: #F82C2C;
+}
+
+/* === FIRST SECTION === */
+
+.comment-rating {
+  margin-top: 24px;
+
+}
+
+.comment-rating .ken-t-profile {
+  margin: 24px 0 0 24px;
+  display: flex;
+}
+
+.profile-photo img {
+  margin-right: 13px;
+}
+
+.ken-t-profile img:nth-child(2), .ken-t-profile img:nth-child(3), .ken-t-profile img:nth-child(4), .ken-t-profile img:nth-child(5), .ken-t-profile img:nth-child(6) {
+  width: 11.95px;
+  height: 11.95px;
+  margin-right: 4.6px;
+}
+
+.ken-t-profile span {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.profile-info {
+  display: block;
+}
+
+/* === MEDIA QUERIES === */
+
+@media screen and (max-width: 1500px) {
+}

@@ -1,0 +1,77 @@
+/* === CONTENT FORMAT === */
+
+.content {
+  justify-content: space-around;
+}
+
+.flex {
+  display: flex;
+}
+
+.padding-steps {
+  padding: 10px;
+  font-size: 20px;
+}
+
+/* === CART STEPS SECTION === */
+
+.cart-steps {
+  display: flex;
+}
+
+.margin-steps {
+  margin-right: 88.67px;
+}
+
+.green-circle {
+  background-color: #85BF55;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.blue-circle {
+  background-color: #2C7EF8;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.outline-circle {
+  background-color: #fff;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid #2C7EF8;
+  text-align: center;
+}
+
+.green-circle img {
+  margin-top: 10px;
+}
+
+.blue-circle p {
+  color: #fff;
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.outline-circle p {
+  color: #2C7EF8;
+  font-size: 20px;
+  margin-top: 4px;
+}
+
+/* === MEDIA QUERIES === */
+
+@media screen and (max-width: 1500px) {
+  .margin-steps {
+  }
+  
+}
